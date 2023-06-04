@@ -304,10 +304,10 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .ourteam-soc-link:hover, .ourteam-soc-link:focus {
     background-color: var(--background-color);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* Customers */
 .customers {
@@ -340,11 +340,11 @@ img {
     align-items: center;
     justify-content: center;
     color: var(--customers-color);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-link:hover, .customers-link:focus {
     border-color: var(--background-color);
     color: var(--background-color);
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-icon {
     fill: currentColor;
@@ -415,13 +415,13 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-soc-icon {
     fill: var(--text-color);
 }
 .footer-soc-link:hover, .footer-soc-link:focus {
     background-color: var(--footer-icon);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* Fitters */
 .fitters {
@@ -501,7 +501,6 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding: 40px;
     background-color: var(--logo-color);
     height: 100%;
     transform: translateY(100%);
